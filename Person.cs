@@ -11,6 +11,7 @@ public abstract class Person {
 public class Customer : Person {
     public DateTime registration;
     private int CreditScore;
+    public Account Account;
 }
 
 public class Employee : Person {
