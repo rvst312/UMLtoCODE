@@ -5,6 +5,7 @@ public abstract class Person {
     public abstract string Name;
     protected abstract string Phone;
     public abstract int Email;
+    public Address Address;
 }
 
 public class Customer : Person {
